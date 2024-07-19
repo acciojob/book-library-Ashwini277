@@ -1,76 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Library</title>
-    <style>
-        body {
-            background-color: #f8f8f8;
-            font-family: Arial, sans-serif;
-        }
-        .book-library {
-            background-color: #ffffff;
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .book {
-            display: flex;
-            margin-bottom: 20px;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .book img {
-            width: 100px;
-            height: auto;
-            margin-right: 20px;
-        }
-        .book-details {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .book-title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .book-author {
-            color: #777777;
-        }
-        .price-block {
-            color: #2ecc71;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library Tests</title>
 </head>
 <body>
-    <div class="book-library">
-        <div class="book">
-            <img src="image-link-1" alt="Spy in the Amber">
-            <div class="book-details">
-                <h2 class="book-title">Spy in the Amber</h2>
-                <p class="book-author">Author: Author Name</p>
-                <div class="price-block">Price: $10</div>
-            </div>
-        </div>
-        <div class="book">
-            <img src="image-link-2" alt="Sacred Games">
-            <div class="book-details">
-                <h2 class="book-title">Sacred Games</h2>
-                <p class="book-author">Author: Author Name</p>
-                <div class="price-block">Price: $12</div>
-            </div>
-        </div>
-        <div class="book">
-            <img src="image-link-3" alt="Byomkesh Bakshi">
-            <div class="book-details">
-                <h2 class="book-title">Byomkesh Bakshi</h2>
-                <p class="book-author">Author: Author Name</p>
-                <div class="price-block">Price: $15</div>
-            </div>
-        </div>
+  <!-- Book Library Element -->
+  <div class="book-library">
+    <!-- Book Elements -->
+    <div class="book">
+      <img src="book1.jpg" alt="Book 1">
+      <h2>Book Title 1</h2>
+      <p>Author 1</p>
+      <div class="book-details" style="background-color: rgb(46, 204, 113); color: rgb(255, 255, 255);">
+        <p style="color: rgb(119, 119, 119);">Book details...</p>
+      </div>
     </div>
+    <div class="book">
+      <img src="book2.jpg" alt="Book 2">
+      <h2>Book Title 2</h2>
+      <p>Author 2</p>
+      <div class="book-details" style="background-color: rgb(46, 204, 113); color: rgb(255, 255, 255);">
+        <p style="color: rgb(119, 119, 119);">Book details...</p>
+      </div>
+    </div>
+    <div class="book">
+      <img src="book3.jpg" alt="Book 3">
+      <h2>Book Title 3</h2>
+      <p>Author 3</p>
+      <div class="book-details" style="background-color: rgb(46, 204, 113); color: rgb(255, 255, 255);">
+        <p style="color: rgb(119, 119, 119);">Book details...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Additional Elements for Testing CSS Properties -->
+  <div style="width: 100px;"></div>
+  <h1 style="text-align: center;">Library Title</h1>
 </body>
 </html>
