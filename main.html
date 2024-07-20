@@ -4,27 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Library</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        .book-library {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .book {
+            background-color: rgb(46, 204, 113);
+            border-radius: 8px;
+            color: rgb(255, 255, 255);
+            margin: 16px;
+            padding: 16px;
+        }
+        .book img {
+            max-width: 100%;
+        }
+        .book h2 {
+            font-size: 1.5em;
+        }
+        .book p {
+            color: rgb(119, 119, 119);
+        }
+        .book-library-header h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <div class="book-library-header">
+        <h1>My Book Library</h1>
+    </div>
     <div class="book-library">
         <div class="book">
-            <img src="spy-in-the-amber.jpg" alt="Spy in the Amber">
-            <h2>Spy in the Amber</h2>
-            <p class="author">Author: Some Author</p>
-            <div class="price-block">$19.99</div>
+            <img src="cover1.jpg" alt="Book Cover 1">
+            <h2>Book Title 1</h2>
+            <p>Author 1</p>
+            <div>Price: $10</div>
         </div>
         <div class="book">
-            <img src="sacred-games.jpg" alt="Sacred Games">
-            <h2>Sacred Games</h2>
-            <p class="author">Author: Another Author</p>
-            <div class="price-block">$24.99</div>
+            <img src="cover2.jpg" alt="Book Cover 2">
+            <h2>Book Title 2</h2>
+            <p>Author 2</p>
+            <div>Price: $15</div>
         </div>
         <div class="book">
-            <img src="byomkesh-bakshi.jpg" alt="Byomkesh Bakshi">
-            <h2>Byomkesh Bakshi</h2>
-            <p class="author">Author: Yet Another Author</p>
-            <div class="price-block">$15.99</div>
+            <img src="cover3.jpg" alt="Book Cover 3">
+            <h2>Book Title 3</h2>
+            <p>Author 3</p>
+            <div>Price: $20</div>
         </div>
     </div>
 </body>
